@@ -1,0 +1,17 @@
+#pragma once
+// FNK0104B / 2.8-inch ESP32-S3 schematic, 2025-06-11.
+#define USER_SETUP_LOADED
+#define DISABLE_ALL_LIBRARY_WARNINGS
+#define ILI9341_DRIVER
+#define TFT_MISO 13
+#define TFT_MOSI 11
+#define TFT_SCLK 12
+#define TFT_CS 10
+#define TFT_DC 46
+#define TFT_RST -1
+#define TFT_BL 45
+#define TFT_BACKLIGHT_ON HIGH
+#define SPI_FREQUENCY 27000000
+#define SPI_READ_FREQUENCY 16000000
+#define LOAD_GLCD
+#define LOAD_FONT2

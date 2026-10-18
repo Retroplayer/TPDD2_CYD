@@ -1,0 +1,4 @@
+.pio/
+.venv/
+build/
+__pycache__/
